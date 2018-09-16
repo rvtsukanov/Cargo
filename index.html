@@ -14,50 +14,23 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="animate/animate.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="select2/select2.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="perfect-scrollbar/perfect-scrollbar.css">
-    <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <!--===============================================================================================-->
 </head>
 <body>
 
-<div class="shapka"> </div>
+<div class="shapka"><span>Cargo</span>cult</div>
 
 <div class="container">
-    <ul class="nav nav-tabs">
-        <li><a href="#menu1">Licenses</a></li>
-        <li><a href="#menu2">Map</a></li>
-        <li><a href="#menu3">Orders</a></li>
+    <ul class="inside">
+        <li id="lic">Licenses</li>
+        <li id = "map">Map</li>
+        <li id="ord">Orders</li>
     </ul>
-
-    <div class="tab-content">
-        <div id="menu1" class="tab-pane fade">
-            <h3>Menu 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <div id="menu2" class="tab-pane fade">
-            <h3>Menu 2</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-        </div>
-        <div id="menu3" class="tab-pane fade">
-            <h3>Menu 3</h3>
-            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
-    </div>
 </div>
-
-<script>
-    $(document).ready(function(){
-        $(".nav-tabs a").click(function(){
-            $(this).tab('show');
-        });
-    });
-</script>
 
 
 <div class="main-table">
@@ -239,5 +212,12 @@
         </tbody>
     </table>
 </div>
+
+
+<div class="map">The map will be here</div>
+<div class="order">The orders will be here</div>
+
+<div class="subsc">Powered by SkolTech IW Team#3</div>
+
 </body>
 </html>
